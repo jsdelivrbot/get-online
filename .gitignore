@@ -38,4 +38,5 @@ node_modules
 
 # Build folder
 static/js
+static/css
 build

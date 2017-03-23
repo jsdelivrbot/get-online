@@ -1,11 +1,18 @@
 import path from 'path';
 import nodeExternals from 'webpack-node-externals';
+import ExtractTextPlugin from 'extract-text-webpack-plugin';
 
 const CURRENT_DIR = __dirname;
 const SRC_DIR =  path.join(CURRENT_DIR, '../src');
-
+const CLIENT_DIR = path.join(SRC_DIR, 'client');
 const CLIENT_ENTRY = path.join(SRC_DIR, 'client/index.js');
-const CLIENT_OUTPUT_DIR = path.join(CURRENT_DIR, '../static/js'); 
+const CLIENT_OUTPUT_DIR = path.join(CURRENT_DIR, '../static');
+
+const extractSass = new ExtractTextPlugin({
+  filename: 'css/app.css',
+  disable: process.env.NODE_ENV === 'production'
+}); 
+
 const clientConfig = {
   entry:[
     `${CLIENT_ENTRY}`
@@ -16,17 +23,36 @@ const clientConfig = {
         test: /jsx?/,
         exclude: [ /node_modules/ ],
         loader: 'babel-loader'
+      },
+      {
+        test: /\.scss$/,
+        include: SRC_DIR,
+        loaders: extractSass.extract({
+          use: [
+            {
+              loader: 'css-loader'
+            },
+            {
+              loader: 'sass-loader'
+            }
+          ],
+          fallback: 'style-loader'
+        })
       }
     ]
   },
   output: {
-    filename: 'client-bundle.js',
+    filename: 'js/client-bundle.js',
     path: `${CLIENT_OUTPUT_DIR}`
-  }
+  },
+  plugins: [
+    extractSass
+  ]
 };
 
 const SERVER_ENTRY = path.join(SRC_DIR, 'server/index.js');
 const SERVER_OUTPUT_DIR = path.join(CURRENT_DIR, '../build/server'); 
+
 const serverConfig = {
   entry: [
     `${SERVER_ENTRY}`
