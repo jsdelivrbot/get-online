@@ -1,4 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './components/App';
 
-console.log('Hi from client');
+ReactDOM.render(<App />, document.getElementById('app'));
