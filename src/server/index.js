@@ -1,9 +1,12 @@
+import path from 'path';
 import express from 'express';
 
 const App = express();
 
-App.get('/*', (req, res) => {
-  res.send('Hello World');
+App.use(express.static('static'));
+
+App.get('/', (req, res) => {
+  res.sendFile('./index.html');
 });
 
 App.listen(3000, () => {
