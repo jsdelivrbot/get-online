@@ -1,4 +1,6 @@
 import path from 'path';
+import webpack from 'webpack';
+import WebpackDevServer from 'webpack-dev-server';
 import nodeExternals from 'webpack-node-externals';
 import ExtractTextPlugin from 'extract-text-webpack-plugin';
 
@@ -15,6 +17,9 @@ const extractSass = new ExtractTextPlugin({
 
 const clientConfig = {
   entry:[
+    'react-hot-loader/patch',
+    'webpack-dev-server/client?http://localhost:5001',
+    'webpack/hot/only-dev-server',
     `${CLIENT_ENTRY}`
   ],
   module: {
@@ -43,10 +48,14 @@ const clientConfig = {
   },
   output: {
     filename: 'js/client-bundle.js',
-    path: `${CLIENT_OUTPUT_DIR}`
+    path: `${CLIENT_OUTPUT_DIR}`,
+    publicPath: 'http://localhost:5001/'
   },
   plugins: [
-    extractSass
+    extractSass,
+    new webpack.HotModuleReplacementPlugin(),
+    new webpack.NamedModulesPlugin(),
+    new webpack.NoEmitOnErrorsPlugin()
   ]
 };
 
@@ -74,7 +83,29 @@ const serverConfig = {
   externals: [ nodeExternals() ]
 };
 
+// start webpack dev server for hot reloading
+startWebpackDevServer();
+
 export default [
   clientConfig,
   serverConfig
 ];
+
+
+function startWebpackDevServer() {
+  new WebpackDevServer(webpack(clientConfig), {
+    publicPath: clientConfig.output.publicPath,
+    hot: true,
+    historyApiFallback:true
+  })
+  .listen('5001', 'localhost', (err, result) => {
+    if (err) {
+      return console.log(err);
+    }
+
+    // we need to start actual express server after webpack is done
+    require(SERVER_OUTPUT_DIR);
+    
+    console.log('Webpack Dev Server started at localhost:5001');
+  });
+}
