@@ -1,9 +1,7 @@
 import localConfig from './webpack/local';
 import productionConfig from './webpack/production';
 
-const config = process.env.NODE_ENV === 'production'
-  ? productionConfig
-  : localConfig;
-
+const isProduction = process.env.NODE_ENV === 'production';
+const config = isProduction ? productionConfig : localConfig;
 
 export default config;
