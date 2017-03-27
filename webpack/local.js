@@ -66,8 +66,8 @@ const serverConfig = {
   externals: [ nodeExternals() ]
 };
 
-// start webpack dev server for hot reloading
-startWebpackDevServer();
+// bundle server and then start the client
+startLocal();
 
 export default [
   clientConfig,
@@ -75,7 +75,7 @@ export default [
 ];
 
 
-function startWebpackDevServer() {
+function startClient() {
   new WebpackDevServer(webpack(clientConfig), {
     publicPath: clientConfig.output.publicPath,
     hot: true,
@@ -85,10 +85,25 @@ function startWebpackDevServer() {
     if (err) {
       return console.log(err);
     }
-
-    // we need to start actual express server after webpack is done
-    require(SERVER_OUTPUT_DIR);
     
     console.log('Webpack Dev Server started at localhost:5001');
+  });
+}
+
+function startLocal() {
+  const serverBundle = webpack(serverConfig);
+
+  serverBundle.run((err, stats) => {
+    if (err) {
+      throw err;
+    }
+    
+    console.log('Server bundled! Startign app server now...');
+    require(`${SERVER_OUTPUT_DIR}`);
+
+    setImmediate(() => {
+      console.log('Starting client now....');
+      startClient();
+    });
   });
 }
