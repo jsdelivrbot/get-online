@@ -1,0 +1,72 @@
+.flex {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-grow-1 {
+  flex-grow: 1;
+}
+
+
+// justify-content classes
+
+@mixin flex-justify-content($jusity-type) {
+  justify-content: $jusity-type;
+}
+
+.flex-jc-center {
+  @include flex-justify-content(center);
+}
+
+.flex-jc-fs {
+  @include flex-justify-content(flex-start);
+}
+
+.flex-jc-fe {
+  @include flex-justify-content(flex-end);
+}
+
+.flex-jc-sb {
+  @include flex-justify-content(space-between);
+}
+
+.flex-jc-sa {
+  @include flex-justify-content(space-around);
+}
+
+// align-items classes
+
+@mixin flex-align-items($align-type) {
+  align-items: $align-type;
+}
+
+.flex-ai-center {
+  @include flex-align-items(center);
+}
+
+.flex-ai-fs {
+  @include flex-align-items(flex-start);
+}
+
+.flex-ai-fe {
+  @include flex-align-items(flex-end);
+}
+
+.flex-ai-base {
+  @include flex-align-items(baseline);
+}
+
+.flex-ai-stretch {
+  @include flex-align-items(stretch);
+}

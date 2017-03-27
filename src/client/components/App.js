@@ -6,7 +6,7 @@ import styles from '../styles/index.scss';
 
 const App = () => {
   return (
-    <div className=''>
+    <div className='vh-100 vw-100 flex flex-column'>
       <Header />
       <Content />
       <Footer />
