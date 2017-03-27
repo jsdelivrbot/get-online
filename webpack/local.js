@@ -2,18 +2,12 @@ import path from 'path';
 import webpack from 'webpack';
 import WebpackDevServer from 'webpack-dev-server';
 import nodeExternals from 'webpack-node-externals';
-import ExtractTextPlugin from 'extract-text-webpack-plugin';
 
 const CURRENT_DIR = __dirname;
 const SRC_DIR =  path.join(CURRENT_DIR, '../src');
 const CLIENT_DIR = path.join(SRC_DIR, 'client');
 const CLIENT_ENTRY = path.join(SRC_DIR, 'client/index.js');
 const CLIENT_OUTPUT_DIR = path.join(CURRENT_DIR, '../static');
-
-const extractSass = new ExtractTextPlugin({
-  filename: 'css/app.css',
-  disable: process.env.NODE_ENV === 'production'
-}); 
 
 const clientConfig = {
   entry:[
@@ -32,17 +26,7 @@ const clientConfig = {
       {
         test: /\.scss$/,
         include: SRC_DIR,
-        loaders: extractSass.extract({
-          use: [
-            {
-              loader: 'css-loader'
-            },
-            {
-              loader: 'sass-loader'
-            }
-          ],
-          fallback: 'style-loader'
-        })
+        loaders: 'style-loader!css-loader?sourceMap!sass-loader?sourceMap'
       }
     ]
   },
@@ -52,7 +36,6 @@ const clientConfig = {
     publicPath: 'http://localhost:5001/'
   },
   plugins: [
-    extractSass,
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NamedModulesPlugin(),
     new webpack.NoEmitOnErrorsPlugin()

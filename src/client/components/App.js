@@ -1,8 +1,16 @@
 import React from 'react';
+import Header from './Header';
+import Footer from './Footer';
+import Content from './Content';
+import styles from '../styles/index.scss';
 
 const App = () => {
   return (
-    <h1>Hello, I am Pratik and hot reloading works!</h1>
+    <div className=''>
+      <Header />
+      <Content />
+      <Footer />
+    </div>
   );
 }
 
