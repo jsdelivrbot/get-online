@@ -20,13 +20,3 @@ if (module.hot) {
     render(NextAppContainer);
   });
 }
-else {
-  injectCss();
-}
-
-function injectCss() {
-  var styleTag = document.createElement('link');
-  styleTag.setAttribute('rel', 'stylesheet');
-  styleTag.setAttribute('href', '/css/app.css');
-  document.head.appendChild(styleTag);
-}
