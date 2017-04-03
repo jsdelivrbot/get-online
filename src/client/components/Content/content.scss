@@ -1,0 +1,27 @@
+@import "../styles/variables";
+
+#app-content {
+  color: $color-black;
+}
+
+#about {
+  background-color: $color-lavendar-light;
+  border-bottom: 4px solid $color-lavendar;
+  min-height: 450px;
+  
+
+  .profile-pic {
+    width: 230px;
+    height: 230px;
+    border: 10px solid $color-lavendar;
+    transform: rotate(315deg);
+    background-color: $color-blue-darker;
+    border-radius: 20%;
+
+    img {
+      width: 100%;
+      transform: rotate(45deg);
+      border-radius: 50%;
+    }
+  }
+}

@@ -1,19 +1,40 @@
-@import "~normalize-css/normalize.css";
 @import url('https://fonts.googleapis.com/css?family=Lato');
-@import "./fonts";
+
+@import "~normalize-css/normalize.css";
+@import "./variables";
 @import "./flexbox";
+@import './grid';
+@import './padding';
+@import './margin';
+
+// component styles
+@import '../components/Header/header';
+@import '../components/Footer/footer';
+@import '../components/Content/content';
 
 body {
   font-family: $font-fam;
-  color: darkgray;
+}
+
+a {
+  text-decoration: none;
+  color: $color-blue-darker;
+  border: none;
+  outline: none;
+
+  &:focus, &:active {
+    border: none;
+    outline: none;
+  }
+
+  &:hover {
+    color: $color-green;
+    text-decoration: underline;
+  }
 }
 
 // browser dimension
 .vh-100 {
   height: 100vh;
-}
-
-.vw-100 {
-  width: 100vw;
 }
 
