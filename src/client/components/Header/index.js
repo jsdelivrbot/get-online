@@ -19,8 +19,10 @@ const Header = () => {
 
   return (
     <div id='app-header'>
-      <div className='container flex flex-column flex-jc-center'>
-        { renderNav() }
+      <div className='container-fluid'>
+        <div className='container flex flex-column flex-jc-center'>
+          { renderNav() }
+        </div>
       </div>
     </div>
   );

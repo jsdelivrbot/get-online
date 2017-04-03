@@ -11,7 +11,7 @@ const About = () => {
   }
 
   return (
-    <div id='about'>
+    <div id='about' className='container-fluid'>
       <div  className='container flex-jc-sa flex-ai-center flex flex-column'>
         { renderProfilePic() }
         <div className='mt-60 p-20'>
