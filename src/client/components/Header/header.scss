@@ -1,0 +1,8 @@
+@import "../styles/variables";
+
+#app-header {
+  background-color: $color-white;
+  color: $color-blue-darker;
+  border-bottom: 4px solid $color-black;
+}
+

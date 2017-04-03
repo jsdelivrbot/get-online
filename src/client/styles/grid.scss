@@ -1,0 +1,37 @@
+@import "./variables";
+
+// take the full width of display port
+.container-fluid {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// overrid width for container based on view port size
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+@media(min-width: $screen-sm-min) {
+  .container {
+    width: 750px;
+  }
+}
+
+
+@media(min-width: $screen-md-min) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media(min-width: $screen-lg-min) {
+  .container {
+    width: 1170px;
+  }
+}
