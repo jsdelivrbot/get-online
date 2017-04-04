@@ -12,21 +12,23 @@ const About = () => {
 
   return (
     <div id='about' className='container-fluid'>
-      <div  className='container flex-jc-sa flex-ai-center flex flex-column'>
-        { renderProfilePic() }
-        <div className='mt-60 p-20'>
-          Hey, I am a Software Developer working on new projects
-          Hey, I am a Software Developer working on new projects
-          Hey, I am a Software Developer working on new projects
-          Hey, I am a Software Developer working on new projects
-          Hey, I am a Software Developer working on new projects
-          Hey, I am a Software Developer working on new projects
-          Hey, I am a Software Developer working on new projects
-          Hey, I am a Software Developer working on new projects
-          Hey, I am a Software Developer working on new projects
-          Hey, I am a Software Developer working on new projects
-          Hey, I am a Software Developer working on new projects
-          Hey, I am a Software Developer working on new projects
+      <div className='row'>
+        <div  className='container flex-jc-sa flex-ai-center flex flex-column'>
+          { renderProfilePic() }
+          <div className='mt-60 p-20'>
+            Hey, I am a Software Developer working on new projects
+            Hey, I am a Software Developer working on new projects
+            Hey, I am a Software Developer working on new projects
+            Hey, I am a Software Developer working on new projects
+            Hey, I am a Software Developer working on new projects
+            Hey, I am a Software Developer working on new projects
+            Hey, I am a Software Developer working on new projects
+            Hey, I am a Software Developer working on new projects
+            Hey, I am a Software Developer working on new projects
+            Hey, I am a Software Developer working on new projects
+            Hey, I am a Software Developer working on new projects
+            Hey, I am a Software Developer working on new projects
+          </div>
         </div>
       </div>
     </div>

@@ -16,6 +16,10 @@
   margin-right: auto;
 }
 
+.row {
+  margin: 0 -15px;
+}
+
 
 @media(min-width: $screen-sm-min) {
   .container {
