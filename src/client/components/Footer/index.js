@@ -4,8 +4,10 @@ const Footer = () => {
   return (
     <div id='app-footer'>
       <div className='container-fluid'>
-        <div className='container'>
-          <h1>Get in touch</h1>
+        <div className='row'>
+          <div className='container'>
+            <h1>Get in touch</h1>
+          </div>
         </div>
       </div>
     </div>
