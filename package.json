@@ -6,7 +6,9 @@
   "scripts": {
     "build-local": "webpack --env=dev --progress --profile --colors",
     "local": "npm run build-local",
-    "prod": "webpack --env=prod --progress --profile --colors && node ./build/server/index.js",
+    "webapck-prod": "webpack --env=prod --progress --profile --colors",
+    "prod": "npm run webapck-prod && node ./build/server/index.js",
+    "heroku-postbuild": "npm run webpack-prod",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Pratik K",
