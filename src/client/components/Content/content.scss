@@ -1,36 +1,74 @@
 @import "../styles/variables";
 
 #app-content {
-  color: $color-black;
-}
+  margin-top: 100px;
+  max-width: 1170px;
+  padding-bottom: 30px;
 
-#about {
-  background-color: $color-lavendar-light;
-  border-bottom: 4px solid $color-lavendar;
-  min-height: 450px;
-  
+  .page-section:nth-child(odd) {
+    box-shadow: 10px 10px 20px lightgrey;
+    border-left: 10px outset royalblue;  
+  }
 
-  .profile-pic {
-    width: 230px;
-    height: 230px;
-    border: 10px solid $color-lavendar;
-    transform: rotate(315deg);
-    background-color: $color-blue-darker;
-    border-radius: 20%;
-
-    img {
-      width: 100%;
-      transform: rotate(45deg);
-      border-radius: 50%;
-    }
+  .page-section:nth-child(even) {
+    border-right: 10px solid #FFE100;
+    box-shadow: - 10px 10px 20px lightgrey;  
   }
 }
 
-@media (max-width: $screen-md-min) {
-  #about {
-    .profile-pic {
-      width: 150px;
-      height: 150px;
-    }
+.page-section {
+  padding: 20px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.summary-point {
+  padding: 10px 0;
+  border-bottom: 2px solid lightgray;
+  margin: 10px 0;
+
+  &:last-child {
+    border-bottom: 0px;
+  }
+
+}
+
+.summary-point-indicator {
+  color: darkorange;
+  padding-right: 10px;
+}
+
+.green-divider {
+  border-bottom: 6px solid #49EA31; //#3ED127//#64ff5a;
+}
+
+#skill-container {
+  margin: 20px 0;
+}
+
+.skill-icon {
+  width: 70%;
+  height: 70%;
+  max-width: 200px;
+  max-height: 200px;
+  margin: 0 auto;
+}
+
+.skill-block {
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0px 1px 10px 5px rgba(0,0,0,0.06);
+}
+
+.heart {
+  color: red;
+  font-size: 40px;
+}
+
+.job {
+  border-bottom: 2px solid lightgray;
+
+  &:last-child {
+    border-bottom: 0px;
   }
 }

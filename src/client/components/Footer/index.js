@@ -4,11 +4,11 @@ const Footer = () => {
   return (
     <div id='app-footer'>
       <div className='container-fluid'>
-        <div className='row'>
-          <div className='container'>
-            <h1>Get in touch</h1>
-          </div>
-        </div>
+            <div className='row center-xs'>
+              <div className='col-xs-12'>
+                <p>&copy; { new Date().getFullYear() } | Pratik Karnawat | All Rights Reserved</p>
+              </div>
+            </div>
       </div>
     </div>
   );

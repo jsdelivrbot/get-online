@@ -4,7 +4,8 @@ $screen-md-min: 992px;      // desktop, tablets - 992px and up
 $screen-lg-min: 1200px;     // large desktop, 1200px and up
 
 // font-family
-$font-fam: 'Lato', Arial, Helvetica, sans-serif;
+$font-fam: 'Roboto Mono', monospace, Arial, Helvetica, sans-serif;
+$font-fam-title: 'Roboto Mono', monospace, Arial, Helvetica, sans-serif;
 
 // font-size
 $font-size-base: 16px;
@@ -14,7 +15,7 @@ $font-size-large: $font-size-medium + 2;
 $font-size-xlarge: $font-size-large + 2;
 
 // colors
-$color-green: #61E786;
+$color-green: darkgreen;      //#61E786;
 $color-lavendar: #9792E3;
 $color-lavendar-light: #F2F5FF;
 $color-blue-darker: #48435C;
