@@ -1,0 +1,8 @@
+{
+  "name": "Pratik's Portfolio Website",
+  "description": "A resume cum portfolio app by Pratik",
+  "repository": "https://github.com/pratiko7/get-online",
+  "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/master/public/node.svg",
+  "keywords": ["node", "express", "heroku"],
+  "image": "heroku/nodejs"
+}
