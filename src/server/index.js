@@ -8,12 +8,13 @@ const App = express();
 const isProd = process.env.NODE_ENV === 'production';
 
 App.use(express.static('static'));
+App.set('port', (process.env.PORT || 5000));
 
 App.get('/', (req, res) => {
   const markup = ReactDOMServer.renderToStaticMarkup(<Template isProd={ isProd } />);
   res.send(`<!DOCTYPE html>${markup}`);
 });
 
-App.listen(5000, () => {
-  console.log('App now running at port 5000');
+App.listen(App.get('port'), () => {
+  console.log('Node app is running on port', App.get('port'));
 });
