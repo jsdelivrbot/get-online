@@ -4,8 +4,9 @@
   "description": "A portfolio website for Pratik K",
   "main": "index.js",
   "scripts": {
-    "build-local": "webpack",
+    "build-local": "webpack --env=dev --progress --profile --colors",
     "local": "npm run build-local",
+    "prod": "webpack --env=prod --progress --profile --colors && node ./build/server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Pratik K",

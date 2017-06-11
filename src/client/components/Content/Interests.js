@@ -7,7 +7,7 @@ const Interests = () => {
         <div className='row'>
           <div className='green-divider col-xs-12'>
             <h1 className='title-txt'>
-              Professionally, I love ( <span className='heart'>&hearts;</span> )
+              I love ( <span className='heart'>&hearts;</span> )
             </h1>
           </div>
           <div className='col-xs-12 pt-20 pb-20'>            

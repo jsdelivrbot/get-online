@@ -1,8 +1,6 @@
-@import "../styles/variables";
-
 #app-header {
-  background-color: $color-white;
-  box-shadow: 0px 10px 60px lightgrey;    //palegoldenrod;
+  background-color: white;
+  box-shadow: 0px 10px 60px lightgrey;
   margin-bottom: 60px;
   position: fixed;
   width: 100%;

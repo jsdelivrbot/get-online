@@ -5,7 +5,6 @@ import nodeExternals from 'webpack-node-externals';
 
 const CURRENT_DIR = __dirname;
 const SRC_DIR =  path.join(CURRENT_DIR, '../src');
-const CLIENT_DIR = path.join(SRC_DIR, 'client');
 const CLIENT_ENTRY = path.join(SRC_DIR, 'client/index.js');
 const CLIENT_OUTPUT_DIR = path.join(CURRENT_DIR, '../static');
 

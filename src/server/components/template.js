@@ -22,7 +22,6 @@ class Template extends Component {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet" />
           <meta name="description" content="A portfolio website depicting projects done by Pratik and much more" />
-          { isProd && <link rel="stylesheet" href="/css/app.css" /> }
         </head>
         <body>
           <div id="app"></div>
