@@ -36,6 +36,12 @@ node_modules
 .VS_CODE
 .DS_STORE
 
+# WebStorm
+.idea
+
+# NPMRC
+.npmrc
+
 # Build folder
 static/js
 static/css

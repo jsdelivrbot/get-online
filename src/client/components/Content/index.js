@@ -1,10 +1,20 @@
 import React from 'react';
 import About from './About';
+import ToolSet from './ToolSet';
+import Hobbies from './Hobbies';
+import Contact from './Contact';
+import Interests from './Interests';
+import Experience from './Experience';
 
 const Content = () => {
   return (
-    <div id='app-content' className='flex-grow-1'>
-      <About />
+    <div id='app-content' className='container-fluid'>
+      <About/>
+      <Interests />
+      <Experience />
+      <ToolSet />
+      <Hobbies />
+      <Contact />
     </div>
   );
 }
