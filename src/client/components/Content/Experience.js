@@ -219,52 +219,37 @@ const Experience = () => {
                     Worked across the application stack by taking on different roles which helped me to lay the foundations for becoming a full stack developer in future.
                   </li>
                   <li>
-                    As a back end engineer:
-                    <ul>
-                      <li>
-                        Wrote code for enabling user file uploads to Amazon S3 utilizing gems like paperclip and carrierwave.
-                      </li>
-                      <li>
-                        Co-implemented a state machine to handle money transactions for a real world banking application.
-                      </li>
-                      <li>
-                        Worked on integration of REST API's for applications Songkick, Foursquare and iTunes for a music application.
-                      </li>
-                      <li>
-                        Examined the security and dependability concerns associated with the various ruby gems used for a given project.
-                      </li>
-                      <li>
-                        Wrote delayed jobs to update database after receiving and processing date received from different API and web services.
-                      </li>
-                    </ul>
+                    Wrote code for enabling user file uploads to Amazon S3 utilizing gems like paperclip and carrierwave.
                   </li>
                   <li>
-                    As a front end engineer:
-                    <ul>
-                      <li>
-                        Developed a modular and generic javascript user validation libraries that can be used across projects.
-                      </li>
-                      <li>
-                        Developed a CMS specific to the application which help admins to update page content without developer support.
-                      </li>
-                      <li>
-                        Developed dynamic webpages using HTML/HAML, CSS/SASS/LESS and JavaScript which can work seamlessly across browsers.
-                      </li>
-                    </ul>
+                    Co-implemented a state machine to handle money transactions for a real world banking application.
                   </li>
                   <li>
-                    As a test engineer:
-                    <ul>
-                      <li>
-                        Coded entire test suites for atleast 2 applications by maintaining 95% functional coverage and 95% code coverage.
-                      </li>
-                      <li>
-                        Maintained and monitered continuous integration Teamcity server for application to report over night build failures.
-                      </li>
-                      <li>
-                        Worked closely with product owners to prepare Cumcumber test stories that can help developers to practice and leverage TDD style of product development.
-                      </li>
-                    </ul>
+                    Worked on integration of REST API's for applications Songkick, Foursquare and iTunes for a music application.
+                  </li>
+                  <li>
+                    Examined the security and dependability concerns associated with the various ruby gems used for a given project.
+                  </li>
+                  <li>
+                    Wrote delayed jobs to update database after receiving and processing date received from different API and web services.
+                  </li>
+                  <li>
+                    Developed a modular and generic javascript user validation libraries that can be used across projects.
+                  </li>
+                  <li>
+                    Developed a CMS specific to the application which help admins to update page content without developer support.
+                  </li>
+                  <li>
+                    Developed dynamic webpages using HTML/HAML, CSS/SASS/LESS and JavaScript which can work seamlessly across browsers.
+                  </li>
+                  <li>
+                    Coded entire test suites for atleast 2 applications by maintaining 95% functional coverage and 95% code coverage.
+                  </li>
+                  <li>
+                    Maintained and monitered continuous integration Teamcity server for application to report over night build failures.
+                  </li>
+                  <li>
+                    Worked closely with product owners to prepare Cumcumber test stories that can help developers to practice and leverage TDD style of product development.
                   </li>
                 </ul>
               </div>

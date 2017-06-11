@@ -1,13 +1,12 @@
 @import "~flexboxgrid/dist/flexboxgrid.min.css";
 @import "~normalize-css/normalize.css";
-@import "./variables";
-@import './padding';
-@import './margin';
+@import "./variables.scss";
+@import './padding.scss';
+@import './margin.scss';
 
-// component styles
-@import '../components/Header/header';
-@import '../components/Footer/footer';
-@import '../components/Content/content';
+@import '../components/Header/header.scss';
+@import '../components/Footer/footer.scss';
+@import '../components/Content/content.scss';
 
 body {
   font-family: $font-fam;
