@@ -63,22 +63,28 @@ const Experience = () => {
                     Full stack feature crew member for the GoCentral product.
                   </li>
                   <li>
-                    Implemented the middleware for handling internationaltion (i18n) inside the product.
+                    Implemented and architected the lifecycle for displaying modals within the application.
                   </li>
                   <li>
-                    Implemented and architected the lifecycle for displaying modals inside the application.
+                    Implemented the middleware for handling internationaltion (i18n) within the application.
                   </li>
                   <li>
                     Responsbile for developing the front end of the application utilizing React, HTML5, and CSS3.
                   </li>
                   <li>
-                    Worked and helped in optimizing the bundle size for the application to get better response times.
-                  </li>
-                  <li>
                     Responbile for developing the back end of the application uitilizing Node.js and frameworks like Express and Slay.
                   </li>
                   <li>
+                    Worked and helped in optimizing the bundle size for the application to achieve faster response time and initial load.
+                  </li>
+                  <li>
                     Implemented the concept of the click to edit inside the application to improve editing experience for the customers.
+                  </li>
+                  <li>
+                    Extensively worked on developing numerous short iteration based monteization features inside the application to help product manager to achieve higher user satisfaction and sales numbers.
+                  </li>
+                  <li>
+                    Took participations in company wide hackathons and team hackathons to come up with innovative ideas such as real time user tracking, lazy loader for widget layouts, "ScrollToTop" React component.
                   </li>
                 </ul>
               </div>
@@ -98,22 +104,19 @@ const Experience = () => {
               <div className='col-xs-12'>
                 <ul>
                   <li>
-                    Scored the full time job offer to work on the next generation of the product.
+                    Scored full time job offer to work on the next generation of the product.
                   </li>
                   <li>
-                    Worked on the version 7 of Website builder product built on C# and .Net stack.
+                    Worked on version 7 of the website builder product built on C# and .Net stack.
                   </li>
                   <li>
-                    Implemented, updated and refactored parts of widgets available in the project.
+                    Implemented, updated and refactored parts of widgets available in the application.
                   </li>
                   <li>
                     Learned and practiced Knockout.js MV<sup>*</sup> framework for building front end of the application.
                   </li>
                   <li>
-                    Responsbile for developing the front end of the application utilizing React, HTML5, and CSS3.
-                  </li>
-                  <li>
-                    Flawlessly updated and refactored the Facebook Graph and Google maps API integrations in the product.
+                    Flawlessly upgraded and refactored the Facebook Graph and Google maps API integrations in the product.
                   </li>
                 </ul>
               </div>
@@ -135,7 +138,7 @@ const Experience = () => {
                     Developed the automation testing pipeline for this application.
                   </li>
                   <li>
-                    Responsible for devising and seting up the CICD pipeline for the application.
+                    Responsible for devising and initializing the CICD pipeline for the application.
                   </li>
                   <li>
                     Interned with this startup to build an identity verification application built using Java, Spring and Angular.js.
@@ -163,13 +166,13 @@ const Experience = () => {
                     Wrote Python scripts to gather and process real time feeds emitted from the security application.
                   </li>
                   <li>
-                    Hands on experience with MongoDB, wrote aggregation queries to fetch large and periodic chunk of data.
+                    Hands on experience with MongoDB, wrote crucial aggregation queries to fetch large and periodic chunk of data.
                   </li>
                   <li>
                     Developed API end points for the application to flush data in CEF(Custom Event Format) using Decorator Pattern.
                   </li>
                   <li>
-                    Actively worked on a security based web application developed in Django to gather threat and malware based data.
+                    Practiced Django web framework to build and maintain the web application for gathering threat and malware data.
                   </li>
                 </ul>
               </div>
@@ -216,9 +219,6 @@ const Experience = () => {
                     First full time job out of college where I was responsible for building web applications utilizing Ruby and Ruby on Rails.
                   </li>
                   <li>
-                    Worked across the application stack by taking on different roles which helped me to lay the foundations for becoming a full stack developer in future.
-                  </li>
-                  <li>
                     Wrote code for enabling user file uploads to Amazon S3 utilizing gems like paperclip and carrierwave.
                   </li>
                   <li>
@@ -250,6 +250,9 @@ const Experience = () => {
                   </li>
                   <li>
                     Worked closely with product owners to prepare Cumcumber test stories that can help developers to practice and leverage TDD style of product development.
+                  </li>
+                   <li>
+                    Working across the application stack by taking on different roles in the product development lifecycle helped me to lay the foundations for becoming a full stack developer in future.
                   </li>
                 </ul>
               </div>

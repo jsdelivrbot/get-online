@@ -11,14 +11,13 @@ const Hobbies = () => {
           <div className='col-xs-12 pt-20 pb-20'>            
             <p>Then I am mostly probably be:</p>
             <ul>
+              <li>Hiking.</li>
               <li>Running.</li>
-              <li>Hiking mountains.</li>
-              <li>Reading autoblogs.</li>
-              <li>Attending a concert.</li>
-              <li>Listening music and playing guitar.</li>
-              <li>Working on small home and craft projects.</li>
-              <li>Just sitting in my room chilling and thinking about life.</li>
-              <li>Putting miles on my car doing a road trip exploring mother Earth appreciating it's beauty and diversity.</li>
+              <li>Reading Auto blogs.</li>
+              <li>Working on home and craft projects.</li>
+              <li>Listening music, attending a concert or playing guitar.</li>
+              <li>On a road trip exploring mother Earth appreciating it's beauty and diversity.</li>
+              <li>Listening to conference talks, doing hands on with new programming languages and technology trends.</li>
             </ul>
           </div>
         </div>
