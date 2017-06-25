@@ -33,15 +33,14 @@
   visibility: visible;
 }
 
+.linkedin-nav-icon {
+  text-align: right;
+}
+
 .nav-link {
   border-bottom: 5px inset lightgray;
 }
 
-.app-logo-container {
-  padding: 50px 10px;
-}
-
-#app-logo {
-  border: 5px solid lightgray;
-  color: #49EA31;
+.nav-links {
+  padding-top: 20vh;
 }

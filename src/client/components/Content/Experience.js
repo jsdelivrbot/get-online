@@ -66,13 +66,13 @@ const Experience = () => {
                     Implemented and architected the lifecycle for displaying modals within the application.
                   </li>
                   <li>
-                    Implemented the middleware for handling internationaltion (i18n) within the application.
+                    Implemented the middleware for handling internationalization (i18n) within the application.
                   </li>
                   <li>
-                    Responsbile for developing the front end of the application utilizing React, HTML5, and CSS3.
+                    Responsible for developing the front end of the application utilizing React, HTML5, and CSS3.
                   </li>
                   <li>
-                    Responbile for developing the back end of the application uitilizing Node.js and frameworks like Express and Slay.
+                    Responsible for developing the back end of the application utilizing Node.js and frameworks like Express and Slay.
                   </li>
                   <li>
                     Worked and helped in optimizing the bundle size for the application to achieve faster response time and initial load.
@@ -81,10 +81,10 @@ const Experience = () => {
                     Implemented the concept of the click to edit inside the application to improve editing experience for the customers.
                   </li>
                   <li>
-                    Extensively worked on developing numerous short iteration based monteization features inside the application to help product manager to achieve higher user satisfaction and sales numbers.
+                    Extensively worked on developing numerous short iteration based monetization features inside the application to help product manager to achieve higher user satisfaction and sales numbers.
                   </li>
                   <li>
-                    Took participations in company wide hackathons and team hackathons to come up with innovative ideas such as real time user tracking, lazy loader for widget layouts, "ScrollToTop" React component.
+                    Took participations in company-wide hackathons and team hackathons to come up with innovative ideas such as real-time user tracking, a lazy loader for widget layouts, "ScrollToTop" React component.
                   </li>
                 </ul>
               </div>
@@ -104,7 +104,7 @@ const Experience = () => {
               <div className='col-xs-12'>
                 <ul>
                   <li>
-                    Scored full time job offer to work on the next generation of the product.
+                    Scored full-time job offer to work on the next generation of the product.
                   </li>
                   <li>
                     Worked on version 7 of the website builder product built on C# and .Net stack.
@@ -113,10 +113,10 @@ const Experience = () => {
                     Implemented, updated and refactored parts of widgets available in the application.
                   </li>
                   <li>
-                    Learned and practiced Knockout.js MV<sup>*</sup> framework for building front end of the application.
+                    Learned and practiced Knockout.js MV* framework for building front end of the application.
                   </li>
                   <li>
-                    Flawlessly upgraded and refactored the Facebook Graph and Google maps API integrations in the product.
+                    Flawlessly upgraded and refactored the Facebook Graph and Google Maps API integrations in the product.
                   </li>
                 </ul>
               </div>
@@ -141,7 +141,7 @@ const Experience = () => {
                     Responsible for devising and initializing the CICD pipeline for the application.
                   </li>
                   <li>
-                    Interned with this startup to build an identity verification application built using Java, Spring and Angular.js.
+                    Joined in as an intern with this startup to build an identity verification application built using Java, Spring, and Angular.js.
                   </li>
                 </ul>
               </div>
@@ -160,13 +160,13 @@ const Experience = () => {
               <div className='col-xs-12'>
                 <ul>
                   <li>
-                    First real world experience in the field of application and network security.
+                    First real-world experience in the field of application and network security.
                   </li>
                   <li>
-                    Wrote Python scripts to gather and process real time feeds emitted from the security application.
+                    Wrote Python scripts to gather and process real-time feeds emitted from the security application.
                   </li>
                   <li>
-                    Hands on experience with MongoDB, wrote crucial aggregation queries to fetch large and periodic chunk of data.
+                    Hands on experience with MongoDB, wrote crucial aggregation queries to fetch large and periodic chunks of data.
                   </li>
                   <li>
                     Developed API end points for the application to flush data in CEF(Custom Event Format) using Decorator Pattern.
@@ -197,7 +197,7 @@ const Experience = () => {
                     Responsible for upgrading, installing and maintaining the modules for the websites.
                   </li>
                   <li>
-                    Responsible updating, maintaining and creating dynamic webpages using HTML, CSS and Jquery.
+                    Responsible updating, maintaining and creating dynamic web pages using HTML, CSS, and Jquery.
                   </li>
                 </ul>
               </div>
@@ -216,40 +216,40 @@ const Experience = () => {
               <div className='col-xs-12'>
                 <ul>
                   <li>
-                    First full time job out of college where I was responsible for building web applications utilizing Ruby and Ruby on Rails.
+                    First full-time job out of college where I was responsible for building web applications utilizing Ruby and Ruby on Rails.
                   </li>
                   <li>
                     Wrote code for enabling user file uploads to Amazon S3 utilizing gems like paperclip and carrierwave.
                   </li>
                   <li>
-                    Co-implemented a state machine to handle money transactions for a real world banking application.
+                    Co-implemented a state machine to handle money transactions for a real-world banking application.
                   </li>
                   <li>
-                    Worked on integration of REST API's for applications Songkick, Foursquare and iTunes for a music application.
+                    Worked on the integration of REST API for applications Songkick, Foursquare and iTunes for a music application.
                   </li>
                   <li>
-                    Examined the security and dependability concerns associated with the various ruby gems used for a given project.
+                    Examined the security and dependability concerns associated with the various Ruby gems used for a given project.
                   </li>
                   <li>
-                    Wrote delayed jobs to update database after receiving and processing date received from different API and web services.
+                    Wrote delayed jobs to update the database after receiving and processing date received from different API and web services.
                   </li>
                   <li>
                     Developed a modular and generic javascript user validation libraries that can be used across projects.
                   </li>
                   <li>
-                    Developed a CMS specific to the application which help admins to update page content without developer support.
+                    Developed a CMS specific to the application which helps admins to update page content without developer support.
                   </li>
                   <li>
-                    Developed dynamic webpages using HTML/HAML, CSS/SASS/LESS and JavaScript which can work seamlessly across browsers.
+                    Developed dynamic web pages using HTML/HAML, CSS/SASS/LESS and JavaScript which can work seamlessly across browsers.
                   </li>
                   <li>
-                    Coded entire test suites for atleast 2 applications by maintaining 95% functional coverage and 95% code coverage.
+                    Coded entire test suites for at least 2 applications by maintaining 95% functional coverage and 95% code coverage.
                   </li>
                   <li>
-                    Maintained and monitered continuous integration Teamcity server for application to report over night build failures.
+                    Maintained and monitored continuous integration TeamCity server for application to report overnight build failures.
                   </li>
                   <li>
-                    Worked closely with product owners to prepare Cumcumber test stories that can help developers to practice and leverage TDD style of product development.
+                    Worked closely with product owners to prepare Cucumber test stories that can help developers to practice and leverage TDD style of product development.
                   </li>
                    <li>
                     Working across the application stack by taking on different roles in the product development lifecycle helped me to lay the foundations for becoming a full stack developer in future.

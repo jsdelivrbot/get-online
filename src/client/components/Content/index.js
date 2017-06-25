@@ -1,7 +1,6 @@
 import React from 'react';
 import About from './About';
 import ToolSet from './ToolSet';
-import Hobbies from './Hobbies';
 import Contact from './Contact';
 import Interests from './Interests';
 import Experience from './Experience';
@@ -13,7 +12,6 @@ const Content = () => {
       <Interests />
       <Experience />
       <ToolSet />
-      <Hobbies />
       <Contact />
     </div>
   );
