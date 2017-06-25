@@ -5,6 +5,7 @@ import Template from './components/template';
 import ReactDOMServer from 'react-dom/server';
 
 const App = express();
+const port = App.get('port') || 6001;
 const isProd = process.env.NODE_ENV === 'production';
 
 App.use(express.static('static'));
@@ -15,6 +16,6 @@ App.get('/', (req, res) => {
   res.send(`<!DOCTYPE html>${markup}`);
 });
 
-App.listen(App.get('port'), () => {
-  console.log('Node app is running on port', App.get('port'));
+App.listen(port, () => {
+  console.log('Node app is running on port', port);
 });

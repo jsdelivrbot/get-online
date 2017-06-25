@@ -10,22 +10,30 @@ const About = () => (
             width='200'
             height='200'
           />
-          <h1 className='title-txt'> Pratik Karnawat </h1>
-          <p> Software Engineer </p>
-          <p> Javascript (ES6), Node.js, UI/UX, Scalable Web Applications, Flux Architecture, React </p>
-          <p> Data Structures and Algorithms, Big Data, Machine Learning </p>
+          <div id='intro-card' className='pt-20 pb-20'>
+            <h1 className='title-txt'> Pratik Karnawat </h1>
+            <p> Software Engineer / Budding Blogger / 6 Speed Lover </p>
+          </div>
         </div>
         <div className='col-xs-12'>
           <h1 className='title-txt'> Little bit about me </h1>
-          <p className='ta-justify'>
-            Hello, I am a Software Engineer working at GoDaddy where I help in developing the next generation internationally scaled website builder - "GoCentral".
-            Since the early days of my programming career I have had the privilege of working as a full stack developer on numerous applications 
-            and over these years I have learned many things the hard and the easy way about building software solutions and fortunately this learning process
-            is still going on (which means I am not bored yet and I guess I will never be).
+          <p>
+            Post the completion of my masters in computer science from Arizona State University.
+            I have been working full-time as a full stack software engineer at GoDaddy, Tempe
+            where I help in developing the next generation (internationally scaled) website builder - "GoCentral".
           </p>
-          <p className='ta-justify'>
-            Academically, I hold a Master's degree in Computer Science from Arizona State University, Tempe, AZ - USA
-            and a bachelor's degree in Information Technology from Shri Vaishnav Institute of Technology and Science, Indore, MP - India.
+          <p> 
+            Since the early days of my programming career, I have had the privilege of working as a full stack developer
+            on numerous distinct applications and over these years, I have learned many things the hard and the easy way to
+            building software solutions. I am passionate about software development because my job enables me to become an
+            active contributor to the society, it allows me to solve problems that create's positive impacts on people's life.
+            The best thing about software development is that in some sense, it is a never ending learning process having come
+            across numerous new ideas as technology evolves with time, and this dynamic component to software development makes
+            sure that my job is not redundant, but it consistently acquaints me with new dimensions of the software industry.
+          </p>
+          <p>
+            Besides work, I play the guitar (jam on good old rock and grunge music), play badminton, go for hiking and running at new places, do home and craft projects,
+            crawl auto blogs and do road trips to observe the beauty of nature.
           </p>
         </div>
       </div>

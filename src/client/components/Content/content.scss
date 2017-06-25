@@ -60,7 +60,6 @@
 
 .heart {
   color: red;
-  font-size: 40px;
 }
 
 .job {
@@ -71,6 +70,8 @@
   }
 }
 
-.ta-justify {
-  text-align: justify;
+#intro-card {
+  h1 {
+    line-height: 0;
+  }
 }

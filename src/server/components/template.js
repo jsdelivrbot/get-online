@@ -20,7 +20,7 @@ class Template extends Component {
           <title>Pratik Karnawat</title>
           <meta name="author" content="Pratik Karnawat" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet" />
+          <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
           <meta name="description" content="A portfolio website depicting projects done by Pratik and much more" />
         </head>
         <body>
