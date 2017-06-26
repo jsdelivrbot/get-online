@@ -12,7 +12,7 @@ const About = () => (
           />
           <div id='intro-card' className='pt-20 pb-20'>
             <h1 className='title-txt'> Pratik Karnawat </h1>
-            <p> Software Engineer / Budding Blogger / 6 Speed Lover </p>
+            <p> Software Engineer / Budding Blogger / Auto Enthusiast </p>
           </div>
         </div>
         <div className='col-xs-12'>
