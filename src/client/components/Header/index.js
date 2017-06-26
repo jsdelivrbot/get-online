@@ -31,7 +31,7 @@ const Header = () => {
     });
 
     return (
-      <div className='nav-links'>
+      <div className='nav-links pt-20'>
         {navLinks}
       </div>
     );
@@ -56,6 +56,9 @@ const Header = () => {
         </div>
       </div>
       <div id='nav-links-container' className='container-fluid closed-nav'>
+          <div className='p-20 logo'>
+            <img src='/images/logo.png' height='100' width='100' />
+          </div>
           { renderNav() }
       </div>
     </div>

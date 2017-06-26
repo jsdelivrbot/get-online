@@ -19,6 +19,7 @@ class Template extends Component {
           <meta charset="UTF-8"/>
           <title>Pratik Karnawat</title>
           <meta name="author" content="Pratik Karnawat" />
+          <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon"/>
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
           <meta name="description" content="A portfolio website depicting projects done by Pratik and much more" />

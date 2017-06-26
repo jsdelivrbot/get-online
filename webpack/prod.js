@@ -29,7 +29,7 @@ const clientConfig = {
         use: 'file-loader'
       },
       {
-        test: /\.(woff|woff2|eot|ttf|svg)$/,
+        test: /\.(woff|woff2|eot|ttf|svg|ico)$/,
         use: {
           loader: 'url-loader',
           options: {
